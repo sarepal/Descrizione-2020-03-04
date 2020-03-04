@@ -1,0 +1,57 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/15210893.5622.emory.edu/list/15210893.5622.emory.edu$10",
+    "resources": [
+        {
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "@type": "oa:Annotation",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "stylesheet": {
+                "value": ".anno-5c649e3a-172d-4927-b49a-0e4b71049288 { background: rgba(0, 191, 255, 0.5); }",
+                "type": "CssStylesheet"
+            },
+            "@id": "5c649e3a-172d-4927-b49a-0e4b71049288",
+            "on": {
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/15210893.5622.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/15210893.5622.emory.edu/canvas/15210893.5622.emory.edu$10",
+                "@type": "oa:SpecificResource",
+                "selector": {
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            },
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='40e999b1-ce3a-4447-83bf-d97dc9dd0705']"
+                        },
+                        "endSelector": {
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 3
+                            },
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='1bc2bec1-8697-4228-8c40-3f409da3eae2']"
+                        }
+                    },
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=79,2505,1543,136"
+                }
+            },
+            "resource": {
+                "format": "text/html",
+                "@type": "dctypes:Text",
+                "chars": "<p>note</p>",
+                "language": "en"
+            },
+            "motivation": "oa:commenting"
+        }
+    ],
+    "@type": "sc:AnnotationList",
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
